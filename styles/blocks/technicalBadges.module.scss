@@ -63,7 +63,7 @@ $background: --background-dim2;
 		.title {
 			flex-grow: 1;
 			text-align: center;
-			font-size: 1rem;
+			font-size: 0.95rem;
 		}
 
 		&:before {
@@ -133,6 +133,25 @@ $background: --background-dim2;
 			}
 		}
 	}
+
+	@include media($max: $mobile) {
+		.list {
+			&.methods {
+				.item {
+					padding: 0.5rem;
+					letter-spacing: -0.025rem;
+
+					svg {
+						height: 1rem;
+						margin-right: 0.5rem;
+					}
+					.title {
+						font-size: 0.5rem;
+					}
+				}
+			}
+		}
+	}
 }
 
 .fullContainer {
@@ -146,21 +165,4 @@ $background: --background-dim2;
 	padding-top: var(--padding-top, 1rem);
 	padding-right: var(--padding-right);
 	padding-bottom: var(--padding-bottom);
-}
-
-@include media($max: $mobile) {
-	.list {
-		&.methods {
-			.item {
-				font-size: 0.75rem;
-				padding: 0.5rem;
-				letter-spacing: -0.025rem;
-
-				svg {
-					height: 1rem;
-					margin-right: 0.5rem;
-				}
-			}
-		}
-	}
 }

@@ -1,53 +1,118 @@
 [
 	{
-		"project": "My Supply Co.",
-		"url": "https://mysupplyco.com",
-		"repo": "Private",
-		"descriptionTitle": "D2C & B2B ecommerce site and blog",
-		"description": "with elegant solutions for a complex codebase and customer journey.",
-		"imageOptions": [
-		],
+		"project": "CodeGuardian -Ticketing App",
+		"url": "https://github.com/prashastikarlekar/CodeGuardian-Ticketing-App",
+		"repo": "Public",
+		"descriptionTitle": "The CodeGuardian Ticketing App is a sleek solution built with Next.js, MongoDB Atlas, and Mongoose, designed to simplify bug tracking. It offers seamless ticket creation, updates, and deletions, providing teams with a hassle-free experience. With its user-friendly interface powered by Next.js, navigating through tickets becomes effortless, while MongoDB Atlas ensures robust data management for swift information retrieval and manipulation.",
+		"features": "This app boosts team productivity and collaboration by centralizing bug tracking efforts. Its intuitive design caters to both technical and non-technical users, making it easy for everyone to contribute effectively. Plus, with MongoDB Atlas handling data seamlessly, teams can focus more on resolving bugs swiftly and less on database management, resulting in improved software quality and faster issue resolution.",
+		"imageOptions": [{ "key": "size", "value": "large" }],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{
+				"key": "mock-stack",
+				"hover": "right",
+				"h": "400",
+				"w": "470",
+				"url": "/img/ticketing_2.png"
+			},
+			{
+				"key": "mock-stack",
+				"hover": "right",
+				"h": "300",
+				"w": "436",
+				"url": "/img/ticketing_1.png"
+			}
 		],
 		"stack": [
-			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
-			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
-			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
-			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+			{ "key": "nextjs", "name": "Next.js", "type": "devicon" },
+			{ "key": "mongodb", "name": "Mongodb", "type": "devicon" },
+			{
+				"key": "atlas",
+				"name": "Atlas",
+				"type": "fas"
+			},
+
+			{ "key": "mongoose", "name": "Mongoose", "type": "devicon" },
+			{ "key": "tailwindcss", "name": "TailwindCSS", "type": "devicon" }
 		]
 	},
 	{
-		"project": "andrewnelson.net",
-		"url": "https://github.com/atlamors/portfolio",
+		"project": "Distributed Map Reduce",
+		"url": "https://github.com/prashastikarlekar/Distributed-Map-Reduce",
 		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
-		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
-		],
+		"descriptionTitle": "Distributed Map Reduce implements the MapReduce paradigm for efficient large-scale data processing, showcasing Word Count and Inverted Index applications.",
+		"features": "This project provides a comprehensive MapReduce implementation for efficient data processing, featuring key components like a TCP server, master node, and key-value server. Users can utilize built-in Word Count and Inverted Index applications, with flexible configuration and fault tolerance mechanisms ensuring reliability. Advanced features include Protocol Buffers for optimized communication, while future enhancements may include load balancing and integration with distributed data stores for scalability.",
+		"imageOptions": [{ "key": "size", "value": "large" }],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+			{
+				"key": "portfolio",
+				"hover": "left",
+				"h": "400",
+				"w": "570",
+				"url": "/img/mapreduce_1.png"
+			}
 		],
 		"stack": [
-			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+			{ "key": "python", "name": "Python", "type": "devicon" },
+			{ "key": "google", "name": "GCP", "type": "devicon" },
+			{
+				"key": "terminal",
+				"name": "Shell / Bash Scripting",
+				"type": "fas"
+			},
+
+			{ "key": "google", "name": "Google Cloud Firestore", "type": "devicon" },
+			{ "key": "google", "name": "Google Cloud Bucket", "type": "devicon" },
+			{ "key": "plug", "name": "Network Sockets", "type": "fas" },
+
+			{ "key": "git", "name": "Git", "type": "devicon" }
+		]
+	},
+
+	{
+		"project": "Distributed Key-Value Store",
+		"url": "https://github.com/prashastikarlekar/KeyValueStore_GCP",
+		"repo": "Public",
+		"descriptionTitle": "Distributed KV store is a Python-based key-value store system featuring a TCP/IP server, supporting native storage, Google Cloud Firestore integration, and Google Cloud Bucket storage options for efficient data management and retrieval.",
+		"features": "Its features include TCP/IP server for client interaction , Native storage using files in the 'data' folder, Google Cloud Firestore integration for NoSQL storage, Google Cloud Bucket storage for scalable file storage, Client process for issuing set and get requests, Workflow automation using the everything.sh script",
+		"imageOptions": [],
+		"images": [
+			{
+				"key": "mock-stack",
+				"hover": "right",
+				"h": "300",
+				"w": "556",
+				"url": "/img/kv_1.png"
+			},
+			{
+				"key": "mock-stack",
+				"hover": "right",
+				"h": "250",
+				"w": "470",
+				"url": "/img/kv_2.png"
+			}
+		],
+		"stack": [
+			{ "key": "python", "name": "Python", "type": "devicon" },
+			{ "key": "google", "name": "GCP", "type": "devicon" },
+			{
+				"key": "terminal",
+				"name": "Shell / Bash Scripting",
+				"type": "fas"
+			},
+			{ "key": "server", "name": "Memcahced Server", "type": "fas" },
+			{ "key": "google", "name": "Google Cloud Firestore", "type": "devicon" },
+			{ "key": "google", "name": "Google Cloud Bucket", "type": "devicon" },
+
+			{
+				"key": "plug",
+				"name": "HTTP",
+				"type": "fas"
+			},
+			{
+				"key": "plug",
+				"name": "TCP/IP",
+				"type": "fas"
+			}
 		]
 	}
 ]

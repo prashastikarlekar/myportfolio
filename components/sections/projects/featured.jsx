@@ -14,7 +14,7 @@ import content from "../../../content/projects/featured.json";
 
 export default function FeaturedProjects() {
 	return (
-		<Section classProp={css.hasBg}>
+		<Section id='projects' classProp={css.hasBg}>
 			<Container spacing={"verticalXXXXLrg"}>
 				<SectionTitle title='Recent Projects' />{" "}
 				{content.map((data, index) => {

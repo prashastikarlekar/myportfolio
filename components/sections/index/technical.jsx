@@ -43,7 +43,7 @@ export default function Technical() {
 							list={programming_languages}
 							block='tech'
 							fullContainer='fullContainer'
-							icon='laptop-code'
+							icon='uncharted'
 							containerClass={technical.container}
 							headerIcon={technical.icon}
 						/>
@@ -53,7 +53,7 @@ export default function Technical() {
 							list={web}
 							block='tech'
 							fullContainer='fullContainer'
-							icon='grid-2-plus'
+							icon='slack'
 							containerClass={technical.container}
 							headerIcon={technical.icon}
 						/>
@@ -65,7 +65,7 @@ export default function Technical() {
 							list={db}
 							block='tech'
 							fullContainer='fullContainer'
-							icon='laptop-code'
+							icon='whmcs'
 							containerClass={technical.container}
 							headerIcon={technical.icon}
 						/>
@@ -75,7 +75,7 @@ export default function Technical() {
 							list={cloud}
 							block='tech'
 							fullContainer='fullContainer'
-							icon='laptop-code'
+							icon='codepen'
 							containerClass={technical.container}
 							headerIcon={technical.icon}
 						/>
@@ -114,8 +114,8 @@ const web = [
 	{ key: "windows", name: ".NET", type: "fab" },
 	{ key: "graphql", name: "GraphQL", type: "devicon" },
 	{ key: "jest", name: "Jest", type: "devicon" },
-	{ key: "paper-plane", name: "Postman", type: "fas" },
-	{ key: "sitemap", name: "MVC Architecture", type: "fas" },
+	{ key: "product-hunt", name: "Postman", type: "fab" },
+	{ key: "windows", name: "MVC Architecture", type: "fab" },
 ];
 
 const db = [
@@ -132,7 +132,7 @@ const cloud = [
 	{ key: "google", name: "GCP", type: "fab" },
 	{ key: "microsoft", name: "Microsoft Azure", type: "fab" },
 	{ key: "docker", name: "Docker", type: "devicon" },
-	{ key: "stream", name: "Kafka", type: "fas" },
+	{ key: "usb", name: "Kafka", type: "fab" },
 ];
 
 const software = [

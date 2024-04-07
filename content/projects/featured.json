@@ -3,8 +3,8 @@
 		"project": "CodeGuardian -Ticketing App",
 		"url": "https://github.com/prashastikarlekar/CodeGuardian-Ticketing-App",
 		"repo": "Public",
-		"descriptionTitle": "The CodeGuardian Ticketing App is a sleek solution built with Next.js, MongoDB Atlas, and Mongoose, designed to simplify bug tracking. It offers seamless ticket creation, updates, and deletions, providing teams with a hassle-free experience. With its user-friendly interface powered by Next.js, navigating through tickets becomes effortless, while MongoDB Atlas ensures robust data management for swift information retrieval and manipulation.",
-		"features": "This app boosts team productivity and collaboration by centralizing bug tracking efforts. Its intuitive design caters to both technical and non-technical users, making it easy for everyone to contribute effectively. Plus, with MongoDB Atlas handling data seamlessly, teams can focus more on resolving bugs swiftly and less on database management, resulting in improved software quality and faster issue resolution.",
+		"descriptionTitle": "The CodeGuardian Ticketing App is a sleek solution built with Next.js, MongoDB Atlas, and Mongoose, designed to simplify bug tracking. It offers seamless ticket creation, updates, and deletions, providing teams with a hassle-free experience. ",
+		"features": "This app boosts team productivity and collaboration by centralizing bug tracking efforts. ",
 		"imageOptions": [{ "key": "size", "value": "large" }],
 		"images": [
 			{
@@ -26,12 +26,12 @@
 			{ "key": "nextjs", "name": "Next.js", "type": "devicon" },
 			{ "key": "mongodb", "name": "Mongodb", "type": "devicon" },
 			{
-				"key": "atlas",
+				"key": "mongodb",
 				"name": "Atlas",
-				"type": "fas"
+				"type": "devicon"
 			},
 
-			{ "key": "mongoose", "name": "Mongoose", "type": "devicon" },
+			{ "key": "mongodb", "name": "Mongoose", "type": "devicon" },
 			{ "key": "tailwindcss", "name": "TailwindCSS", "type": "devicon" }
 		]
 	},
@@ -40,7 +40,7 @@
 		"url": "https://github.com/prashastikarlekar/Distributed-Map-Reduce",
 		"repo": "Public",
 		"descriptionTitle": "Distributed Map Reduce implements the MapReduce paradigm for efficient large-scale data processing, showcasing Word Count and Inverted Index applications.",
-		"features": "This project provides a comprehensive MapReduce implementation for efficient data processing, featuring key components like a TCP server, master node, and key-value server. Users can utilize built-in Word Count and Inverted Index applications, with flexible configuration and fault tolerance mechanisms ensuring reliability. Advanced features include Protocol Buffers for optimized communication, while future enhancements may include load balancing and integration with distributed data stores for scalability.",
+		"features": "This project provides a comprehensive MapReduce implementation for efficient data processing, featuring key components like a TCP server, master node, and key-value server. Users can utilize built-in Word Count and Inverted Index applications, with flexible configuration and fault tolerance mechanisms ensuring reliability. ",
 		"imageOptions": [{ "key": "size", "value": "large" }],
 		"images": [
 			{
@@ -55,14 +55,14 @@
 			{ "key": "python", "name": "Python", "type": "devicon" },
 			{ "key": "google", "name": "GCP", "type": "devicon" },
 			{
-				"key": "terminal",
+				"key": "slack",
 				"name": "Shell / Bash Scripting",
-				"type": "fas"
+				"type": "devicon"
 			},
 
 			{ "key": "google", "name": "Google Cloud Firestore", "type": "devicon" },
 			{ "key": "google", "name": "Google Cloud Bucket", "type": "devicon" },
-			{ "key": "plug", "name": "Network Sockets", "type": "fas" },
+			{ "key": "slack", "name": "Network Sockets", "type": "devicon" },
 
 			{ "key": "git", "name": "Git", "type": "devicon" }
 		]
@@ -95,23 +95,23 @@
 			{ "key": "python", "name": "Python", "type": "devicon" },
 			{ "key": "google", "name": "GCP", "type": "devicon" },
 			{
-				"key": "terminal",
+				"key": "slack",
 				"name": "Shell / Bash Scripting",
-				"type": "fas"
+				"type": "devicon"
 			},
-			{ "key": "server", "name": "Memcahced Server", "type": "fas" },
+			{ "key": "codepen", "name": "Memcahced Server", "type": "devicon" },
 			{ "key": "google", "name": "Google Cloud Firestore", "type": "devicon" },
 			{ "key": "google", "name": "Google Cloud Bucket", "type": "devicon" },
 
 			{
-				"key": "plug",
+				"key": "codepen",
 				"name": "HTTP",
-				"type": "fas"
+				"type": "devicon"
 			},
 			{
-				"key": "plug",
+				"key": "slack",
 				"name": "TCP/IP",
-				"type": "fas"
+				"type": "devicon"
 			}
 		]
 	}

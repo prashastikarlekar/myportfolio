@@ -1,0 +1,19 @@
+{
+	"name": "Prashasti Karlekar",
+	"logo": "",
+
+	"username": {
+		"github": "prashastikarlekar"
+	},
+
+	"portfolio": {
+		"forkthis": "PRASHASTI KARLEKAR",
+		"subtitle": "Get in touch and Hire me!",
+		"linkedin": "https://www.linkedin.com/in/prashasti-karlekar/",
+		"twitter": "https://twitter.com/daemon_catt",
+		"insta": "https://www.instagram.com/cattssssssss/",
+		"repo_html": "https://www.github.com/atlamors/portfolio",
+		"leetcode": "https://leetcode.com/prashasti_karlekar/",
+		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+	}
+}

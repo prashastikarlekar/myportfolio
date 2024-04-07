@@ -1,0 +1,18 @@
+[
+	{
+		"url": "about",
+		"title": "About Me"
+	},
+	{
+		"url": "skills",
+		"title": "Technical Skillset"
+	},
+	{
+		"url": "projects",
+		"title": "Projects"
+	},
+	{
+		"url": "contact",
+		"title": "Contact Me"
+	}
+]

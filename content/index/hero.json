@@ -1,0 +1,42 @@
+{
+	"intro": {
+		"start": "const Prashasti = ( name, passion ) =>",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Prashasti Karlekar.",
+		"usp": "I engineer seamless digital experiences, from intuitive UIs to scalable systems."
+	},
+
+	"paragraph": "I recently garduated with a Master of Science in Data Science from Indiana University. With a solid foundation and 3 years of hands-on experience, I am actively pursuing roles as a Software Developer, SDE, Frontend Engineer, and Full-stack Developer. Available to start immediately, I am eager to bring my expertise to new projects.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/prashasti-karlekar/",
+			"leaveSite": "true"
+		},
+		"ternary": {
+			"title": "GitHub",
+			"url": "https://github.com/prashastikarlekar",
+			"leaveSite": "true"
+		},
+		"forth": {
+			"title": "View my Resume",
+			"url": "https://drive.google.com/file/d/1MaZqMayZGk8eGs6j7-B4Os5WcsqXhC56/view?usp=sharing",
+			"leaveSite": "true"
+		}
+	}
+}

@@ -56,20 +56,26 @@ export default function FeaturedProject({ content }, index) {
 						onClick={() => window.open(url, "_blank")}
 						className={`${css.header} leavesite`}>
 						<h3 className='highlight'>{project}</h3>
-						<span className={css.privateOr}>
+						{/* <span className={css.privateOr}>
 							<i className='devicon-github-plain'></i>
 							{repo}
-						</span>
+						</span> */}
+						<button
+							className={`button ${button.primary} leaveSite `}
+							onClick={() => window.open(url, "_blank")}
+							style={{
+								fontSize: "0.9rem",
+								padding: ".75rem 1rem",
+								whiteSpace: "nowrap",
+							}}>
+							View Project
+						</button>
 					</div>
 					<div className={css.description}>
-						<p>
-							<strong>{descriptionTitle}</strong>{" "}
-						</p>
+						<p>{descriptionTitle} </p>
 					</div>
 					<div className={css.features}>
-						<p>
-							<strong>{features}</strong>{" "}
-						</p>
+						<p>{features} </p>
 					</div>
 					<div className={css.stackContainer}>
 						<Badges
@@ -79,28 +85,22 @@ export default function FeaturedProject({ content }, index) {
 							color={false}
 						/>
 					</div>
-					<button
-						className={`button ${button.primary} leaveSite`}
-						style={{ width: "51%" }}
-						onClick={() => window.open(url, "_blank")}>
-						View Project
-					</button>
 				</div>
 			</div>
 
 			<div className={css.imageContainer}>
-				{/* <span className={`${css.imageAnimationContainer}`}> */}
-				{images.map(({ key, url, hover, h, w }, index) => {
-					hover = hover === "left" ? hoverLeft : hoverRight;
-					return (
-						<m.div key={`${index}-${key}`} variants={item}>
-							<m.div variants={hover}>
-								<Image src={url} alt='x' height={h} width={w} />
+				<span className={`${css.imageAnimationContainer}`}>
+					{images.map(({ key, url, hover, h, w }, index) => {
+						hover = hover === "left" ? hoverLeft : hoverRight;
+						return (
+							<m.div key={`${index}-${key}`} variants={item}>
+								<m.div variants={hover}>
+									<Image src={url} alt='x' height={h} width={w} />
+								</m.div>
 							</m.div>
-						</m.div>
-					);
-				})}
-				{/* </span> */}
+						);
+					})}
+				</span>
 			</div>
 		</m.section>
 	);

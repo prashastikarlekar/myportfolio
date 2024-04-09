@@ -1,4 +1,6 @@
-@import '../scss/_mixins';
+/** @format */
+
+@import "../scss/_mixins";
 
 .default {
 	position: relative;
@@ -10,5 +12,4 @@
 }
 
 @include media($max: $mobile) {
-	
 }

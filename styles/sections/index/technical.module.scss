@@ -3,7 +3,12 @@
 @import "../../scss/mixins";
 
 // Section
+.hasBg {
+	border-bottom: 1px solid var(--primary-dark);
+}
 .section {
+	background: url("/public/img/dataism-24.svg");
+	background-size: cover;
 	.content {
 		$padding: 2rem;
 		position: relative;

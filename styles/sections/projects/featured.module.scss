@@ -153,7 +153,8 @@
 	--opacity: 10%;
 
 	position: absolute;
-	top: 50%;
+	// top: 50%;
+
 	transform: translateY(-50%);
 	z-index: -2;
 	width: 100%;
@@ -162,12 +163,12 @@
 	.afterGlowBg {
 		position: absolute;
 		z-index: -2;
-		top: -50%;
+		// top: -50%;
 		right: 0px;
 		height: 1000px;
 		width: 500px;
-		transform: translateX(50%);
-		filter: blur(200px);
+		// transform: translateX(50%);
+		filter: blur(150px);
 		opacity: var(--opacity);
 		// background: linear-gradient(180deg, rgb(41, 212, 112) 0%,  rgb(242, 240, 79) 100% );
 		background: linear-gradient(
@@ -321,6 +322,11 @@
 					}
 				}
 			}
+		}
+	}
+	.projectHeader {
+		p {
+			font-size: 1.1rem;
 		}
 	}
 

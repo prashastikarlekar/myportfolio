@@ -28,7 +28,9 @@ import technical from "../../../styles/sections/index/technical.module.scss";
  */
 export default function Technical() {
 	return (
-		<Section id='skills' classProp={`${technical.section} borderBottom`}>
+		<Section
+			id='skills'
+			classProp={`${technical.section} borderBottom ${technical.hasBg}`}>
 			<Container spacing={["verticalXXXLrg"]}>
 				<SectionTitle
 					title='Technical Skillset'
@@ -58,6 +60,7 @@ export default function Technical() {
 							headerIcon={technical.icon}
 						/>
 					</div>
+
 					<div className={technical.copy}>
 						<TechnicalBadgesBlock
 							title='Databases'

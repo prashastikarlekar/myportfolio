@@ -1,7 +1,9 @@
 /** @format */
 
 @import "../../scss/mixins";
-
+.hasBg {
+	border-bottom: 1px solid var(--primary-dark);
+}
 // Section
 .section {
 	.content {

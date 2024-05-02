@@ -31,7 +31,7 @@ export default function Technical() {
 		<Section
 			id='skills'
 			classProp={`${technical.section} borderBottom ${technical.hasBg}`}>
-			<Container spacing={["verticalXXXLrg"]}>
+			<Container spacing={["verticalLrg"]}>
 				<SectionTitle
 					title='Technical Skillset'
 					preTitle='Hardskills'
@@ -106,8 +106,9 @@ const web = [
 	{ key: "react", name: "React.js", type: "devicon" },
 	{ key: "nextjs", name: "Next.js", type: "devicon" },
 	{ key: "redux", name: "Redux", type: "devicon" },
+	{ key: "react", name: "React Native", type: "devicon" },
 	{ key: "nodejs", name: "NodeJS", type: "devicon" },
-	{ key: "globe", name: "RESTful APIs", type: "fas" },
+	{ key: "codepen", name: "RESTful APIs", type: "devicon" },
 	{ key: "html5", name: "HTML", type: "devicon" },
 	{ key: "css3", name: "CSS", type: "devicon" },
 	{ key: "bootstrap", name: "Bootstrap", type: "devicon" },

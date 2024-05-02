@@ -1,7 +1,41 @@
 [
 	{
+		"project": "VisionVerse: Video Sharing App",
+		"url": "https://github.com/prashastikarlekar/visionVerseApp",
+		"liveUrl": "https://expo.dev/accounts/prashastikarlekar/projects/VisionVerse/builds/9a6b2ad5-277e-436e-98c9-82b8b5862b1c",
+		"repo": "Public",
+		"descriptionTitle": "VisionVerse is a video sharing app where users upload videos along with AI-generated prompts, allowing seamless playback, pause, and full-screen viewing of the content. ",
+		"features": "Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, enabling seamless sharing of AI videos within the community.",
+		"imageOptions": [{ "key": "size", "value": "large" }],
+		"images": [
+			{
+				"key": "mock-stack",
+				"hover": "left",
+				"h": "550",
+				"w": "370",
+
+				"url": "/img/visionverse.jpg"
+			}
+		],
+		"stack": [
+			{ "key": "react", "name": "React Native", "type": "devicon" },
+			{ "key": "tailwindcss", "name": "Nativewind", "type": "devicon" },
+			{ "key": "slack", "name": "Expo", "type": "devicon" },
+
+			{ "key": "redux", "name": "ContextAPI", "type": "devicon" },
+			{
+				"key": "codepen",
+				"name": "Animatable",
+				"type": "devicon"
+			},
+
+			{ "key": "appwrite", "name": "Appwrite", "type": "devicon" }
+		]
+	},
+	{
 		"project": "CodeGuardian -Ticketing App",
 		"url": "https://github.com/prashastikarlekar/CodeGuardian-Ticketing-App",
+		"liveUrl": "",
 		"repo": "Public",
 		"descriptionTitle": "The CodeGuardian Ticketing App is a sleek solution built with Next.js, MongoDB Atlas, and Mongoose, designed to simplify bug tracking. It offers seamless ticket creation, updates, and deletions, providing teams with a hassle-free experience. ",
 		"features": "This app boosts team productivity and collaboration by centralizing bug tracking efforts. ",
@@ -31,6 +65,7 @@
 	{
 		"project": "Student Marketplace",
 		"url": "https://github.com/prashastikarlekar/studentMarketplace",
+		"liveUrl": "https://student-marketplace1.000webhostapp.com/",
 		"repo": "Public",
 		"descriptionTitle": "This dynamic online platform is designed to connect students for buying and selling various products within their academic community. ",
 		"features": "Built on Vite, React, PHP, this platform provides features like product search, pagination, robust chat feature, profile management, seller ratings, filtering, wishlisting products, etc. ",
@@ -39,10 +74,10 @@
 			{
 				"key": "mock-stack",
 				"hover": "left",
-				"h": "290",
-				"w": "470",
+				"h": "450",
+				"w": "560",
 
-				"url": "/img/marketplace_1.png"
+				"url": "/img/marketplace_2.png"
 			}
 		],
 		"stack": [
@@ -61,9 +96,11 @@
 			{ "key": "bootstrap", "name": "Bootstrap", "type": "devicon" }
 		]
 	},
+
 	{
 		"project": "Distributed Map Reduce",
 		"url": "https://github.com/prashastikarlekar/Distributed-Map-Reduce",
+		"liveUrl": "",
 		"repo": "Public",
 		"descriptionTitle": "Distributed Map Reduce implements the MapReduce paradigm for efficient large-scale data processing, showcasing Word Count and Inverted Index applications.",
 		"features": "This project provides a comprehensive MapReduce implementation for efficient data processing, featuring key components like a TCP server, master node, and key-value server. Users can utilize built-in Word Count and Inverted Index applications, with flexible configuration and fault tolerance mechanisms ensuring reliability. ",
@@ -98,6 +135,7 @@
 	{
 		"project": "Distributed Key-Value Store",
 		"url": "https://github.com/prashastikarlekar/KeyValueStore_GCP",
+		"liveUrl": "",
 		"repo": "Public",
 		"descriptionTitle": "Distributed KV store is a Python-based key-value store system featuring a TCP/IP server, supporting native storage, Google Cloud Firestore integration, and Google Cloud Bucket storage options for efficient data management and retrieval.",
 		"features": "Its features include TCP/IP server for client interaction , Native storage using files in the 'data' folder, Google Cloud Firestore integration for NoSQL storage, Google Cloud Bucket storage for scalable file storage, Client process for issuing set and get requests, Workflow automation using the everything.sh script",

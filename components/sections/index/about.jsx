@@ -29,7 +29,7 @@ import about from "../../../styles/sections/index/about.module.scss";
 export default function About() {
 	return (
 		<Section id='about' classProp={`${about.section} ${about.hasBg}`}>
-			<Container spacing={["verticalXXXLrg"]}>
+			<Container spacing={["verticalLrg"]}>
 				<SectionTitle
 					title='About Me'
 					preTitle=''
@@ -87,15 +87,13 @@ export default function About() {
 										services, GraphQL, and Node.js
 									</span>
 									, I&apos;ve created applications that cater to over 10,000
-									satisfied users. I also spearheaded the adoption of paperless
-									practices in healthcare, resulting in an impressive 80%
-									reduction in manual work.
+									satisfied users.
 									<br />
 									In every project, I combine technical expertise with a passion
 									for problem-solving, driving innovation and efficiency. I am
 									proficient in{" "}
 									<span style={{ fontWeight: "bolder" }}>
-										JavaScript, Python, C, C++, and SQL.
+										JavaScript, Python, C, C++, Java, and SQL.
 									</span>
 									<br />
 									Apart from coding, I find joy in expressing myself through

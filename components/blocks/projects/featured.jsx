@@ -17,6 +17,7 @@ export default function FeaturedProject({ content }, index) {
 	const {
 		project,
 		url,
+		liveUrl,
 		repo,
 		descriptionTitle,
 		features,
@@ -52,10 +53,8 @@ export default function FeaturedProject({ content }, index) {
 			animate={controls}>
 			<div className={css.details}>
 				<div className={css.projectHeader}>
-					<div
-						onClick={() => window.open(url, "_blank")}
-						className={`${css.header} leavesite`}>
-						<h3 className='highlight'>{project}</h3>
+					<h3 className='highlight'>{project}</h3>
+					<div className={`${css.header} leavesite`}>
 						{/* <span className={css.privateOr}>
 							<i className='devicon-github-plain'></i>
 							{repo}
@@ -68,8 +67,20 @@ export default function FeaturedProject({ content }, index) {
 								padding: ".75rem 1rem",
 								whiteSpace: "nowrap",
 							}}>
-							View Project
+							View on GitHub
 						</button>
+						{liveUrl !== "" && (
+							<button
+								className={`button ${button.primary} leaveSite `}
+								onClick={() => window.open(liveUrl, "_blank")}
+								style={{
+									fontSize: "0.9rem",
+									padding: ".75rem ",
+									whiteSpace: "nowrap",
+								}}>
+								Live Project
+							</button>
+						)}
 					</div>
 					<div className={css.description}>
 						<p>{descriptionTitle} </p>

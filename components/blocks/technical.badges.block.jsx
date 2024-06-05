@@ -18,10 +18,12 @@ export default function TechnicalBadgesBlock({
 }) {
 	return (
 		<div className={`${badges.badgeBlockContainer} ${containerClass}`}>
-			<span className={headerIcon}>
-				<Icon icon={["fab", icon]} />
-			</span>
-			<h3>{title}</h3>
+			<div className={`${badges.headingIcon}`}>
+				<span className={headerIcon}>
+					<Icon icon={["fab", icon]} />
+				</span>
+				<h3>{title}</h3>
+			</div>
 			<Copy copy={copy} />
 			<TechnicalBadges
 				list={list}

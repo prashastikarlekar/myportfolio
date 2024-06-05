@@ -11,8 +11,8 @@
 			{
 				"key": "mock-stack",
 				"hover": "left",
-				"h": "550",
-				"w": "370",
+				"h": "200",
+				"w": "100",
 
 				"url": "/img/visionverse.jpg"
 			}
@@ -43,9 +43,8 @@
 		"images": [
 			{
 				"key": "mock-stack",
-				"hover": "right",
-				"h": "400",
-				"w": "470",
+				"h": "170",
+				"w": "170",
 				"url": "/img/ticketing_2.png"
 			}
 		],
@@ -73,10 +72,8 @@
 		"images": [
 			{
 				"key": "mock-stack",
-				"hover": "left",
-				"h": "450",
-				"w": "560",
-
+				"h": "480",
+				"w": "700",
 				"url": "/img/marketplace_2.png"
 			}
 		],

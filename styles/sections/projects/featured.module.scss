@@ -40,7 +40,7 @@
 	gap: var(--size-2x);
 
 	p {
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 		line-height: 1.2;
 
 		strong {
@@ -123,9 +123,11 @@
 			> span {
 				position: absolute !important;
 				right: 1.75rem;
+				// margin: 0px 50px;
 
 				img {
-					width: calc(556px / 1.25) !important;
+					// width: calc(556px / 1.25) !important;
+					width: 294.8px !important;
 				}
 			}
 		}
@@ -281,7 +283,7 @@
 			.imageContainer {
 				height: 100px;
 				width: 100%;
-				margin-top: 80px;
+				margin-top: 100px;
 			}
 
 			.imageAnimationContainer {

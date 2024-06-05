@@ -45,7 +45,6 @@ export default function FeaturedProject({ content }, index) {
 		<m.section
 			key={index}
 			className={css.project}
-			//framer-motion
 			ref={ref}
 			variants={container}
 			initial={["rest", "hidden"]}
@@ -102,7 +101,7 @@ export default function FeaturedProject({ content }, index) {
 			<div className={css.imageContainer}>
 				<span className={`${css.imageAnimationContainer}`}>
 					{images.map(({ key, url, hover, h, w }, index) => {
-						hover = hover === "left" ? hoverLeft : hoverRight;
+						// hover = hover === "left" ? hoverLeft : hoverRight;
 
 						return (
 							<m.div key={`${index}-${key}`} variants={item}>
@@ -166,20 +165,20 @@ const item = {
 	},
 };
 
-const hoverLeft = {
-	rest: {
-		x: 0,
-	},
-	hover: {
-		x: -20,
-	},
-};
+// const hoverLeft = {
+// 	rest: {
+// 		x: 0,
+// 	},
+// 	hover: {
+// 		x: -20,
+// 	},
+// };
 
-const hoverRight = {
-	rest: {
-		x: 0,
-	},
-	hover: {
-		x: 20,
-	},
-};
+// const hoverRight = {
+// 	rest: {
+// 		x: 0,
+// 	},
+// 	hover: {
+// 		x: 20,
+// 	},
+// };

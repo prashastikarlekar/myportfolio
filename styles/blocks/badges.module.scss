@@ -134,7 +134,11 @@ $background: --background-dim2;
 		}
 	}
 }
-
+.headingIcon {
+	display: flex;
+	gap: 18px;
+	align-items: center;
+}
 .fullContainer {
 	border-top: 1px solid var(--primary-dark);
 	background: var(--background-dim);

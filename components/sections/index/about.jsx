@@ -28,8 +28,11 @@ import about from "../../../styles/sections/index/about.module.scss";
 
 export default function About() {
 	return (
-		<Section id='about' classProp={`${about.section} ${about.hasBg}`}>
-			<Container spacing={["verticalLrg"]}>
+		<Section
+			id='about'
+			classProp={`${about.section} ${about.hasBg} ${about.stars}`}
+			className={about.stars}>
+			<Container spacing={["verticalLrg"]} className={about.stars}>
 				<SectionTitle
 					title='About Me'
 					preTitle=''
@@ -48,8 +51,11 @@ export default function About() {
 								<>
 									With a{" "}
 									<span style={{ fontWeight: "bolder" }}>
-										Master&apos;s in Data Science from Indiana University
-										Bloomington
+										Master&apos;s in Data Science
+									</span>{" "}
+									from{" "}
+									<span style={{ fontWeight: "bolder" }}>
+										Indiana University Bloomington
 									</span>{" "}
 									and a Bachelor&apos;s in Computer Science, I bring a solid
 									academic background to the table. Currently, I work as a

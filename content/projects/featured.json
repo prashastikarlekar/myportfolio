@@ -1,5 +1,34 @@
 [
 	{
+		"project": "Money Map: Navigate your finances with ease",
+		"url": "https://github.com/prashastikarlekar/money-map",
+		"liveUrl": "https://money-map-k1zi.onrender.com/",
+		"repo": "Public",
+		"descriptionTitle": "Money Map is a comprehensive full-stack MERN application designed to help users manage their finances effectively. ",
+		"features": "Built with GraphQL, this application provides an intuitive and user-friendly interface for tracking expenses and managing transactions. Its features include tracking finances by category,adding/updating/deleting transactions, and caching for improved performance.",
+		"imageOptions": [{ "key": "size" }],
+		"images": [
+			{
+				"key": "mock-stack",
+				"hover": "left",
+				"h": "140",
+				"w": "250",
+				"url": "/img/moneymap.png"
+			}
+		],
+		"stack": [
+			{ "key": "react", "name": "React", "type": "devicon" },
+			{ "key": "tailwindcss", "name": "TailwindCSS", "type": "devicon" },
+
+			{ "key": "graphql", "name": "GraphQL", "type": "devicon" },
+			{ "key": "graphql", "name": "Apollo Client", "type": "devicon" },
+			{ "key": "mongodb", "name": "MongoDB", "type": "devicon" },
+			{ "key": "javascript", "name": "Express", "type": "devicon" },
+			{ "key": "nodejs", "name": "Node.js", "type": "devicon" }
+		]
+	},
+
+	{
 		"project": "VisionVerse: Video Sharing App",
 		"url": "https://github.com/prashastikarlekar/visionVerseApp",
 		"liveUrl": "https://expo.dev/accounts/prashastikarlekar/projects/VisionVerse/builds/9a6b2ad5-277e-436e-98c9-82b8b5862b1c",
@@ -11,8 +40,8 @@
 			{
 				"key": "mock-stack",
 				"hover": "left",
-				"h": "200",
-				"w": "100",
+				"h": "1000",
+				"w": "1100",
 
 				"url": "/img/visionverse.jpg"
 			}
@@ -44,7 +73,7 @@
 			{
 				"key": "mock-stack",
 				"h": "170",
-				"w": "170",
+				"w": "215",
 				"url": "/img/ticketing_2.png"
 			}
 		],
@@ -68,26 +97,24 @@
 		"repo": "Public",
 		"descriptionTitle": "This dynamic online platform is designed to connect students for buying and selling various products within their academic community. ",
 		"features": "Built on Vite, React, PHP, this platform provides features like product search, pagination, robust chat feature, profile management, seller ratings, filtering, wishlisting products, etc. ",
-		"imageOptions": [{ "key": "size", "value": "large" }],
+		"imageOptions": [{ "key": "size" }],
 		"images": [
 			{
 				"key": "mock-stack",
-				"h": "480",
-				"w": "700",
-				"url": "/img/marketplace_2.png"
+				"h": "590",
+				"w": "1000",
+				"url": "/img/studentmarketplace2.png"
 			}
 		],
 		"stack": [
 			{ "key": "react", "name": "React.js", "type": "devicon" },
 			{ "key": "vite", "name": "Vite", "type": "devicon" },
-
 			{ "key": "php", "name": "PHP", "type": "devicon" },
 			{
 				"key": "redux",
 				"name": "React-Redux",
 				"type": "devicon"
 			},
-
 			{ "key": "mysql", "name": "SQL", "type": "devicon" },
 			{ "key": "php", "name": "phpMyAdmin", "type": "devicon" },
 			{ "key": "bootstrap", "name": "Bootstrap", "type": "devicon" }
@@ -100,16 +127,16 @@
 		"liveUrl": "",
 		"repo": "Public",
 		"descriptionTitle": "Distributed Map Reduce implements the MapReduce paradigm for efficient large-scale data processing, showcasing Word Count and Inverted Index applications.",
-		"features": "This project provides a comprehensive MapReduce implementation for efficient data processing, featuring key components like a TCP server, master node, and key-value server. Users can utilize built-in Word Count and Inverted Index applications, with flexible configuration and fault tolerance mechanisms ensuring reliability. ",
+		"features": "This project provides a comprehensive MapReduce implementation for efficient data processing, featuring key components like a TCP server, master node, and key-value server. Users can utilize built-in Word Count and Inverted Index applications, with fault tolerance mechanisms ensuring reliability. ",
 		"imageOptions": [{ "key": "size", "value": "large" }],
 		"images": [
 			{
 				"key": "portfolio",
 				"hover": "right",
-				"h": "230",
-				"w": "320",
+				"h": "550",
+				"w": "980",
 
-				"url": "/img/mapreduce_1.png"
+				"url": "/img/mapReduce.png"
 			}
 		],
 		"stack": [
@@ -143,7 +170,7 @@
 				"hover": "left",
 				"h": "290",
 				"w": "500",
-				"url": "/img/kv_1.png"
+				"url": "/img/kvStore.svg"
 			}
 		],
 		"stack": [

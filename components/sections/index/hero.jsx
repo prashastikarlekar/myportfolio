@@ -101,12 +101,19 @@ export default function Hero() {
 					<button
 						className={`button ${button.secondary} leaveSite`}
 						onClick={() =>
+							window.open("https://leetcode.com/u/prashasti_karlekar", "_blank")
+						}>
+						{content.buttons.forth.title}
+					</button>
+					<button
+						className={`button ${button.secondary} leaveSite`}
+						onClick={() =>
 							window.open(
 								"https://drive.google.com/file/d/1wu1CAj7Oq5ccXm6tkBQv4oLx4wAJb04T/view?usp=sharing",
 								"_blank"
 							)
 						}>
-						{content.buttons.forth.title}
+						{content.buttons.fifth.title}
 					</button>
 				</section>
 			</Container>

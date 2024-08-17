@@ -37,10 +37,10 @@
 .projectHeader {
 	display: flex;
 	flex-direction: column;
-	gap: var(--size-2x);
+	gap: var(--size-13x);
 
 	p {
-		font-size: 1.1rem;
+		font-size: 1.05rem;
 		line-height: 1.2;
 
 		strong {
@@ -100,6 +100,10 @@
 	}
 }
 
+.newImage {
+	aspect-ratio: 1/1;
+}
+
 .imageContainer {
 	z-index: 3;
 	position: relative;
@@ -123,11 +127,12 @@
 			> span {
 				position: absolute !important;
 				right: 1.75rem;
+				// right: 4.25rem;
 				// margin: 0px 50px;
 
 				img {
-					// width: calc(556px / 1.25) !important;
-					width: 294.8px !important;
+					width: calc(556px / 1.25) !important;
+					// width: 294.8px !important;
 				}
 			}
 		}

@@ -105,8 +105,16 @@ export default function FeaturedProject({ content }, index) {
 
 						return (
 							<m.div key={`${index}-${key}`} variants={item}>
-								<m.div variants={hover}>
-									<Image src={url} alt='x' height={h} width={w} />
+								<m.div>
+									<Image
+										className=''
+										src={url}
+										alt='x'
+										height={230}
+										width={230}
+										style={{ height: "20px" }}
+										unoptimized
+									/>
 								</m.div>
 							</m.div>
 						);
@@ -164,21 +172,3 @@ const item = {
 		},
 	},
 };
-
-// const hoverLeft = {
-// 	rest: {
-// 		x: 0,
-// 	},
-// 	hover: {
-// 		x: -20,
-// 	},
-// };
-
-// const hoverRight = {
-// 	rest: {
-// 		x: 0,
-// 	},
-// 	hover: {
-// 		x: 20,
-// 	},
-// };

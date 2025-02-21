@@ -109,7 +109,7 @@ export default function Hero() {
 						className={`button ${button.secondary} leaveSite`}
 						onClick={() =>
 							window.open(
-								"https://drive.google.com/file/d/11FbrTaaVirIl7OI0jISARAEgpQkKvqsr/view?usp=sharing",
+								"https://drive.google.com/file/d/16_YSUpnqlxcH0mDjE3cqY9EbRSx2AEFi/view?usp=sharing",
 								"_blank"
 							)
 						}>

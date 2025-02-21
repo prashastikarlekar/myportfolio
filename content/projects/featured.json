@@ -1,5 +1,33 @@
 [
 	{
+		"project": "NextStop - AI-Powered Plans for Your Next Adventure",
+		"url": "https://github.com/prashastikarlekar/nomadly",
+		"liveUrl": "https://nextstopv1.vercel.app/",
+		"repo": "Private",
+		"descriptionTitle": "NextStop is a travel planner I built to test the power of AI in real-world app development. I wanted to stay ahead of the curve and create something that leverages LLMs for a practical use case. The idea was simple: make trip planning faster by helping users quickly explore different destinations, get personalized itinerary suggestions, and decide where to go and save hours of research.",
+		"features": "Built with React for an intuitive user interface, styled using TailwindCSS for a clean and responsive design. The backend is powered by Flask for efficient API handling, and it integrates the Gemini 1.5 Flash API for advanced AI-driven itinerary generation, enhanced with optimized caching for lightning-fast performance.",
+		"imageOptions": [{ "key": "size" }],
+		"images": [
+			{
+				"key": "mock-stack",
+				"hover": "left",
+				"h": "500",
+				"w": "570",
+				"url": "/img/nextstop.png"
+			}
+		],
+		"stack": [
+			{ "key": "react", "name": "React", "type": "devicon" },
+			{ "key": "tailwindcss", "name": "TailwindCSS", "type": "devicon" },
+
+			{ "key": "graphql", "name": "GraphQL", "type": "devicon" },
+			{ "key": "graphql", "name": "Apollo Client", "type": "devicon" },
+			{ "key": "mongodb", "name": "MongoDB", "type": "devicon" },
+			{ "key": "javascript", "name": "Express", "type": "devicon" },
+			{ "key": "nodejs", "name": "Node.js", "type": "devicon" }
+		]
+	},
+	{
 		"project": "Money Map: Navigate your finances with ease",
 		"url": "https://github.com/prashastikarlekar/money-map",
 		"liveUrl": "https://money-map-k1zi.onrender.com/",
@@ -11,8 +39,8 @@
 			{
 				"key": "mock-stack",
 				"hover": "left",
-				"h": "140",
-				"w": "250",
+				"h": "1400",
+				"w": "1300",
 				"url": "/img/moneymap.png"
 			}
 		],
@@ -40,8 +68,8 @@
 			{
 				"key": "mock-stack",
 				"hover": "left",
-				"h": "1000",
-				"w": "1100",
+				"h": "610",
+				"w": "650",
 
 				"url": "/img/visionverse.jpg"
 			}
@@ -72,8 +100,8 @@
 		"images": [
 			{
 				"key": "mock-stack",
-				"h": "170",
-				"w": "215",
+				"h": "206",
+				"w": "240",
 				"url": "/img/ticketing_2.png"
 			}
 		],
@@ -101,8 +129,8 @@
 		"images": [
 			{
 				"key": "mock-stack",
-				"h": "590",
-				"w": "1000",
+				"h": "1000",
+				"w": "760",
 				"url": "/img/studentmarketplace2.png"
 			}
 		],
@@ -133,8 +161,8 @@
 			{
 				"key": "portfolio",
 				"hover": "right",
-				"h": "550",
-				"w": "980",
+				"h": "600",
+				"w": "500",
 
 				"url": "/img/mapReduce.png"
 			}

@@ -110,8 +110,8 @@ export default function FeaturedProject({ content }, index) {
 										className=''
 										src={url}
 										alt='x'
-										height={230}
-										width={230}
+										height={h}
+										width={w}
 										style={{ height: "20px" }}
 										unoptimized
 									/>

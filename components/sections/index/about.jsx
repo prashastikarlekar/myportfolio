@@ -58,19 +58,9 @@ export default function About() {
 										Indiana University Bloomington
 									</span>{" "}
 									and a Bachelor&apos;s in Computer Science, I bring a solid
-									academic background to the table. Currently, I work as a
-									Research Assistant at IU, where I lead the development of{" "}
-									<a
-										style={{ textDecoration: "underline" }}
-										href='https://artsanalytics.org/'
-										target='_blank'
-										rel='noopener noreferrer'>
-										AEI Lab
-									</a>{" "}
-									website using{" "}
-									<span style={{ fontWeight: "bolder" }}>React.js</span>,
-									boosting user engagement by 8%.
-									<br />
+									academic background to the table. Currently at Zyon Digital Solutions, I'm working on reimagining how the organization approaches employee development and feedback. 
+									I'm building and optimizing front-end interfaces that help teams track and evaluate performance more effectively. 
+									I also recently worked with Inception Robotics to develop <span style={{ fontWeight: "bolder" }}>CORTES</span> – a platform supporting <span style={{ fontWeight: "bolder" }}>U.S. Army field robotics experiments</span>, where I helped researchers manage and analyze complex robotics data more effectively.
 									My professional journey spans various domains, from optimizing
 									applications for insurance agents at{" "}
 									<span style={{ fontWeight: "bolder" }}>
